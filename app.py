@@ -3,7 +3,7 @@
 import streamlit as st
 import base64
 import pandas as pd
-import mysql.connector
+
 from db_connection import insert_data_into_database
 from db_connection import delete_data_from_database
 from db_connection import insert_existing_email_into_database
